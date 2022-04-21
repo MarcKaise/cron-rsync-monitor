@@ -1,0 +1,20 @@
+<% content_for :title do %>NAS Backup Monitor<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="a_timeline" data-view="Timeline" data-title="Backup History"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="backup_storage_usage" data-view="Meter" data-title="Backup Storage Usage" data-height="200" data-width="200" data-min="0" data-max="100" data-suffix="%"></div>
+    </li>
+
+ <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="pbar" data-view="ProgressBars" data-title="RaspberryPi" style="background-color:#2c3e50;"></div>
+    </li> 
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="hotstat" data-view="HotStatus" data-title="Backup Status"></div>
+    </li>
+  </ul>
+</div>

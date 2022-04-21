@@ -1,0 +1,54 @@
+---
+events:
+- name: Del
+  date: dummy
+/04/12
+  background: red
+- name: Add dir1/file4.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir2/file5.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir2/file6.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir3/file7.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir3/file8.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir3/file9.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Del dir2/file5.c
+  date: 2022/04/12
+  background: white
+- name: Add dir1/file1.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir1/あいうえお.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Add dir1/日本語.c
+  date: 2022/04/12
+  background: lightgreen
+- name: Error
+  date: 2022/04/12
+  background: red
+- name: Del dir2/file5.c
+  date: 2022/04/14
+  background: white
+- name: Del dir3/file7.c
+  date: 2022/04/14
+  background: white
+- name: Add dir1/file1.c
+  date: 2022/04/14
+  background: lightgreen
+- name: Add dir1/あいうえお.c
+  date: 2022/04/14
+  background: lightgreen
+- name: Add dir1/日本語.c
+  date: 2022/04/14
+  background: lightgreen
