@@ -72,13 +72,13 @@ var TimeKnots = {
         }
 
         // 1 column setting
-        TIMELINE_LEFT_MARGIN = 130;
-        TEXT_LEFT_MARGIN = 110;
-        DATE_LEFT_MARGIN = 100;
+        // TIMELINE_LEFT_MARGIN = 130;
+        // TEXT_LEFT_MARGIN = 110;
+        // DATE_LEFT_MARGIN = 100;
         // 2 column setting
-        // TIMELINE_LEFT_MARGIN = 250;
-        // TEXT_LEFT_MARGIN = 230;
-        // DATE_LEFT_MARGIN = 200;
+        TIMELINE_LEFT_MARGIN = 250;
+        TEXT_LEFT_MARGIN = 230;
+        DATE_LEFT_MARGIN = 200;
 
         svg.selectAll("line")
             .data(events).enter().append("line")

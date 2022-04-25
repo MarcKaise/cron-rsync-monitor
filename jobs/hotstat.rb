@@ -1,12 +1,13 @@
 # set path of log file
-filename = "/home/mkaise/git/demo-rsync/log_result.txt"
+filename = "/home/mkaise/git/cron-rsync/log_cron.txt"
 
-SCHEDULER.every '10s' do
+SCHEDULER.every '55s' do
     # judge backup status 
     if File.exist?( filename )
         lines = File.readlines( filename ).grep(/failed/)
         if lines.empty?
-            msg = "no failure observed."
+            # msg = "no failure observed."
+            msg = File.readlines( filename ).last
             result = "ok"
         else
             msg = lines.first

@@ -1,11 +1,11 @@
 MAX_DAYS_OVERDUE = -30
 MAX_DAYS_AWAY = 30
 
-rsync_log = "/home/mkaise/git/demo-rsync/log_rsync.txt"
-config_file = File.dirname(File.expand_path(__FILE__)) + '/../timeline_data.yml'
+rsync_log = "/home/mkaise/git/cron-rsync/log_rsync.txt"
+config_file = File.dirname(File.expand_path(__FILE__)) + '/../timeline.yml'
 
 # SCHEDULER.every '6h', :first_in => 0 do |job|
-SCHEDULER.every '20s', :first_in => 0 do |job|
+SCHEDULER.every '87s', :first_in => 0 do |job|
 
     # Generate timeline_data.yml
     hash = {"events"=>[]}

@@ -1,6 +1,6 @@
 require 'sys/filesystem'
 
-storage_path = "/"
+storage_path = "/mnt/backup"
 
 SCHEDULER.every '10s' do
     stat = Sys::Filesystem.stat( storage_path )
